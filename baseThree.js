@@ -1,3 +1,10 @@
+/*
+ * @Date: 2025-01-10 16:25:43
+ * @LastEditors: LinKangjing linkangjing@foxmail.com
+ * @LastEditTime: 2025-01-10 16:44:49
+ * @FilePath: \threeStudy\baseThree.js
+ * @Description: 
+ */
 // 创建3D场景对象Scene
 const scene = new THREE.Scene();
 const geometry = new THREE.BoxGeometry(100, 100, 100); 
@@ -26,4 +33,12 @@ renderer.setSize(width, height); //设置three.js渲染区域的尺寸(像素px)
 renderer.render(scene, camera); //执行渲染操作
 document.body.appendChild(renderer.domElement);
 
-
+// 创建网格
+export const createMesh = (color,Geometry=THREE.SphereGeometry,...rest )=>{
+  const geometry = new Geometry(...rest);
+  const material = new THREE.MeshLambertMaterial({
+      color: color,
+  });
+  const mesh = new THREE.Mesh(geometry, material);
+  return mesh;
+} 

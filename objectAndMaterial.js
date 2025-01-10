@@ -1,9 +1,9 @@
 /*
  * @Description: 
- * @FilePath: \three\objectAndMaterial.js
+ * @FilePath: \threeStudy\objectAndMaterial.js
  * @Date: 2024-12-07 16:20:04
- * @LastEditors: Lin_kangjing
- * @LastEditTime: 2024-12-07 16:40:05
+ * @LastEditors: LinKangjing linkangjing@foxmail.com
+ * @LastEditTime: 2025-01-10 16:33:26
  * @author: Lin_kangjing
  */
 
