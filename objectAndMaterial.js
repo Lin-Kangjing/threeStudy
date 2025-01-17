@@ -3,7 +3,7 @@
  * @FilePath: \threeStudy\objectAndMaterial.js
  * @Date: 2024-12-07 16:20:04
  * @LastEditors: LinKangjing linkangjing@foxmail.com
- * @LastEditTime: 2025-01-10 16:33:26
+ * @LastEditTime: 2025-01-17 16:15:14
  * @author: Lin_kangjing
  */
 
